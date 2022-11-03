@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 35px 0;
+}
+
+.header-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comp{
+   
+    font-size: 20px;
+}
+
+.comp i{
+    margin-right: 20px;
+}
+
+.logo{
+    width: 15%
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav a{
+    margin-right: 45px;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+nav i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav i:last-child{
+    display: none;
+}
+
+#gallery{
+    background-color: #F1F1F3;
+    padding: 5rem 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text h2{
+    font-size: 41px;
+}
+
+.text span{
+   color: red;
+}
+
+.text p{
+    margin-top: 20px;
+    color: grey;
+}
+
+.photo{
+     width: 30%;
+     
+}
+
+.photo img{
+    width: 100%; 
+}
+
+#mid{
+    margin-top: 3rem;
+}
+
+.top{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left a{
+    margin-left: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+.left a:hover{
+      color: red;
+}
+
+.right a{
+    color: black;
+}
+
+.mid-all{
+    margin-top: 2rem;
+}
+
+
+.image{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box{
+   width: 23%;
+}
+
+.box span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img{
+     width: 100%   
+}
+
+@media(max-width:578px){
+    
+     .container{
+         padding: 0 2rem;
+     }
+
+    .logo{
+        width: 50%;
+    }
+    
+    .bar-icon{
+        display: block !important;
+    }
+
+    .glass-icon{
+      display: none;
+    }
+
+    .shop-icon{
+        display: none;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    nav span{
+        display: none;
+    }
+
+    .comp{
+        display: none;
+    }
+
+    .text h2{
+        font-size: 30px;
+    }
+
+    .text p{
+        display: none;
+    }
+    
+    #gallery{
+        background-image: url(https://browsecat.net/sites/default/files/neutral-flower-background-128509-1412264-5364196.png)
+    }
+
+    .photo{
+        display: none;
+    }
+
+}
